@@ -1,6 +1,6 @@
-// Klayvem Guimarães Leal da Silva
+// Klayvem Guimarães
 // Maria Luiza Fernandes
-// Rayssa Buarque 
+// Rayssa Buarque
 
 //porta digital do motor
 #define motorA 12 
@@ -26,7 +26,7 @@ void loop()
     valor_Bluetooth = Serial.read();
     Serial.println(valor_Bluetooth);
     
-    analogWrite(motor, valor_Bluetooth);
+    analogWrite(motorA, valor_Bluetooth);
    
      delay(10);
   }
