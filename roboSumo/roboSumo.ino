@@ -1,3 +1,7 @@
+// Klayvem Guimarães Leal da Silva
+// Maria Luiza
+// Rayssa Buarque 
+
 //porta digital do motor
 #define motorA 12 
 #define motorB 8 

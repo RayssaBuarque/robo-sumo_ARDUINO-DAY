@@ -1,9 +1,22 @@
 # Robô Sumô - Arduino Day 2023 🤖🥊
-Robô Sumô desenvolvido pro Arduino Day 2023 da Etec Abdias do Nascimento
+<p>Competição de Robô Sumô desenvolvida por alunos da ETEC Abdias do Nascimento para o evento <span style = "color:aquamarine">Arduino Day!<span> </p>
 
- >Circuito disponível em: ![Este arquivo não pode ser acessado no momento]()
+> O evento acontecerá nos dias 27 e 28.
 
-### Necessary Components
-- Arduino Nano
-- 2 motores
-- 1 Módulo Bluetooth HC-05
+> @sumostrike.ds 🎥
+
+![](./assets/Sumostrike.png)
+
+### Componentes utilizados ⚙️
+→ 1 Arduino Nano
+
+
+→ 2 motores
+
+
+→ 1 Módulo Bluetooth HC-05
+
+
+→ 1 Mini Protobord
+
+→ Jumpers
