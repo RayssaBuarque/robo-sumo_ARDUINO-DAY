@@ -10,13 +10,7 @@
 ### Componentes utilizados ⚙️
 → 1 Arduino Nano
 
-
 → 2 motores
-
 
 → 1 Módulo Bluetooth HC-05
 
-
-→ 1 Mini Protobord
-
-→ Jumpers
