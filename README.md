@@ -12,7 +12,7 @@
 - 2 Motores DC com caixa de Redução
 - 1 Módulo Bluetooth HC-05
 
-### Impressões 3d
+### Modelos 3d 🖨️
 - [Printable Sumo Bot Jr Kit by makenai](https://www.thingiverse.com/thing:357369)
 - [
 Ikedo Kogeki Minisumo Robot Sumo Body by Joecarnine](https://www.thingiverse.com/thing:3911221)
