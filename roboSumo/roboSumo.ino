@@ -2,32 +2,46 @@
 // Maria Luiza Fernandes
 // Rayssa Buarque
 
-//porta digital do motor
-#define motor 12 
+#include <SoftwareSerial.h> 
 
-int valor_Bluetooth = 0; // Dados bluetooth
+int readBluetooth; //Variável que irá receber o comando enviado do Android
+int pin1 = 4;
+int pin2 = 5;
+int pin3 = 6;
+int pin4 = 7;
 
-void setup()
-{
-  
-  Serial.begin(9600); 
-
-  //configurando porta dos motores
-  pinMode(motor, OUTPUT);
-  
+void setup() {
+  Serial.begin(9600);//Inicia comunicação serial
+  pinMode(pin1,OUTPUT); 
+  pinMode(pin2,OUTPUT);
+  pinMode(pin3,OUTPUT);
+  pinMode(pin4,OUTPUT);
 }
-
-void loop()
-{
-  //caso alguma informação na porta serial
-  if(Serial.available()){
-    //
-    valor_Bluetooth = Serial.read();
-    Serial.println(valor_Bluetooth);
-    
-    analogWrite(motor, valor_Bluetooth);
-   
-     delay(10);
+ 
+void loop() {
+  if(Serial.available()>0){
+    readBluetooth = Serial.read();
+    if(readBluetooth == 'F'){
+      digitalWrite(pin1, HIGH);
+      digitalWrite(pin2, LOW);
+      digitalWrite(pin3, HIGH);
+      digitalWrite(pin4, LOW);
+      Serial.print("F");
+    }
+     if(readBluetooth == 'R'){
+      digitalWrite(pin1, LOW);
+      digitalWrite(pin2, HIGH);
+      digitalWrite(pin3, LOW);
+      digitalWrite(pin4, HIGH);
+      Serial.print("R");
+    }
+     
+    if(readBluetooth == 'P'){
+      digitalWrite(pin1, LOW);
+      digitalWrite(pin2, LOW);
+      digitalWrite(pin3, LOW);
+      digitalWrite(pin4, LOW);
+      Serial.print("P");
+    }
   }
-  
 }
