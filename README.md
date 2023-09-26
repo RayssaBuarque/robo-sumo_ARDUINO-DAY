@@ -10,6 +10,7 @@
 ### Componentes utilizados ⚙️
 - 1 Arduino Nano
 - 2 Motores DC com caixa de Redução
+- 1 Driver Motor Ponte H
 - 1 Módulo Bluetooth HC-05
 
 ### Modelos 3d 🖨️
