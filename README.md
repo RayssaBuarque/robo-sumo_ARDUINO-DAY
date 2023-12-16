@@ -1,6 +1,6 @@
-# Robô Sumô - Arduino Day 2023 🤖🥊
+# Mini Robô Sumô - Arduino Day 2023 🤖🥊
 
-<p>Robôs Sumô desenvolvidos para o evento <b>Arduino Day 2023</b> da ETEC Abdias do Nascimento </p>
+<p>Mini Robôs Sumô desenvolvidos para o evento <b>Arduino Day 2023</b> da ETEC Abdias do Nascimento </p>
 
 > [Ig: @sumostrike.ds 🎥](https://www.instagram.com/sumostrike.ds/)
 
