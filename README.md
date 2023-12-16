@@ -5,7 +5,7 @@
 > [Ig: @sumostrike.ds 🎥](https://www.instagram.com/sumostrike.ds/)
 
 ### Circuito Elaborado 🔌
-![Circuito dos Robôs](./assets/Sumostrike.png)
+![Circuito dos Robôs](./assets/sumostrike.png)
 
 ### Componentes utilizados ⚙️
 - 1 Arduino Nano
