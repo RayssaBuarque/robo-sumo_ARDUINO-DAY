@@ -15,5 +15,4 @@
 
 ### Modelos 3d 🖨️
 - [Printable Sumo Bot Jr Kit by makenai](https://www.thingiverse.com/thing:357369)
-- [
-Ikedo Kogeki Minisumo Robot Sumo Body by Joecarnine](https://www.thingiverse.com/thing:3911221)
+- [Ikedo Kogeki Minisumo Robot Sumo Body by Joecarnine](https://www.thingiverse.com/thing:3911221)
